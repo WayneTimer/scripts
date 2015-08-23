@@ -1,0 +1,10 @@
+set nu
+set ruler
+set laststatus=2
+set encoding=utf-8
+set autoindent
+set cindent
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
