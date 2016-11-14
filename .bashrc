@@ -1,5 +1,11 @@
 # origin .bashrc is above
+# usage: cat .bashrc >> ~/.bashrc
 # ---------
+
+# --- for Nvidia CUDA ---
+export PATH=$PATH:/usr/local/cuda-8.0/bin
+export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64
+# ---------------------
 
 source /opt/ros/indigo/setup.bash
 source ~/catkin_ws/devel/setup.bash
