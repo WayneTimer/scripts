@@ -14,5 +14,6 @@ source ~/catkin_ws/devel/setup.bash
 alias rosremote="export ROS_MASTER_URI=http://tegra-ubuntu:11311"
 alias cmk="cd ~/catkin_ws/;catkin_make;cd -"
 alias ck="~/catkin_make_only.bash"
+alias ipscan="nmap -sP 192.168.1.0/24"
 export ROS_HOME=~/catkin_ws
 export ROSCONSOLE_FORMAT='[${severity}]: ${message}'
